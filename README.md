@@ -4,8 +4,8 @@ are multiple tabs open. And there doesn't seem to be an official fix
 [on the horizon](https://support.google.com/chrome/forum/AAAAP1KN0B0XJE1LBY76g8/).
 
 There are partial remedies like reopening all previously opened tabs on the
-next startup using `<Ctrl+Shift+T>` or setting "On Startup" option to
-"Continue where you left off". But I still would like to have the
+next startup using `<Ctrl+Shift+T>` or setting *On Startup* option to
+*Continue where you left off*. But I still would like to have the
 warning on close, for various reasons. There is also a browser extension
 which does exactly this.
 
