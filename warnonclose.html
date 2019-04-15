@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Warn on Close</title>
+    <script>
+      window.onbeforeunload = function() {
+        return "You tried to close the entire browser window. Are you sure?";
+      }
+      function oninteraction() {
+        document.getElementById("ineffect").innerText = "YES"
+      }
+      window.onclick = oninteraction;
+      window.onkeypress = oninteraction;
+    </script>
+  </head>
+  <body>
+    <h1>Warn on Close</h1>
+    <p>
+      This page runs a simple script that blocks the browser close event
+      and asks for confirmation.
+      <br>
+      User needs to interact with this page for the browser to allow
+      the script to run.
+      <br>
+      Please press a key or click anywhere on this page to enable the script.
+      <br>
+      Warning on browser close is in effect: <span id="ineffect">NO</span>
+    </p>
+  </body>
+</html>
